@@ -1,0 +1,101 @@
+.container-explanation{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    min-width: 400px;
+}
+
+.wrapper-explanation{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.wrapper-explanation h1{
+    font-family: 'Roboto', sans-serif;
+    line-height: 2.5rem;
+    letter-spacing: 0.025rem;
+    font-weight: 600;
+    font-size: 46px;
+}
+.wrapper-explanation h3{
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 0.025rem;
+    line-height: 1.75rem;
+}
+
+@media screen and (max-width: 940px) {
+    .container-explanation{
+        width: 100%;
+        height: 400px;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        justify-content: center;
+        padding-top: 20px;
+    }
+    
+    .wrapper-explanation{
+        width: 80%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .wrapper-explanation h1{
+        font-family: 'Roboto', sans-serif;
+        line-height: 2.5rem;
+        letter-spacing: 0.025rem;
+        font-weight: 600;
+        font-size: 36px;
+    }
+    .wrapper-explanation h3{
+        font-family: 'Roboto', sans-serif;
+        text-align: justify;
+        font-size: 14px;
+        font-weight: 300;
+        letter-spacing: 0.025rem;
+        line-height: 1.25rem;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .container-explanation{
+        width: 100%;
+        height: 400px;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        justify-content: center;
+        padding-top: 10px;
+    }
+    
+    .wrapper-explanation{
+        width: 80%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .wrapper-explanation h1{
+        font-family: 'Roboto', sans-serif;
+        line-height: 2.5rem;
+        letter-spacing: 0.025rem;
+        font-weight: 600;
+        font-size: 28px;
+    }
+    .wrapper-explanation h3{
+        font-family: 'Roboto', sans-serif;
+        text-align: justify;
+        font-size: 12px;
+        font-weight: 300;
+        letter-spacing: 0.025rem;
+        line-height: 1.0rem;
+    }
+}

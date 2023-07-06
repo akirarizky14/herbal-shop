@@ -1,0 +1,113 @@
+.container-cardprograms{
+    width: 50%;
+    height: 150px;
+    display: flex;
+}
+.container-cardprograms .wrapper-cardprograms{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding-right: 50px;
+}
+.container-cardprograms .wrapper-cardprograms .img-box{
+    width: 35%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+}   
+.container-cardprograms .wrapper-cardprograms .title-cardprograms{
+    width: 75%;
+    height: 80%;
+}
+.container-cardprograms .wrapper-cardprograms .title-cardprograms h1{
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.container-cardprograms .wrapper-cardprograms .title-cardprograms span{
+    font-size: 14px;
+    font-weight: 400;
+}
+@media screen and (max-width: 1280px) {
+    .container-cardprograms{
+        width: 50%;
+        height: 150px;
+        display: flex;
+        flex-basis: 100%; /* Mengatur lebar kartu menjadi 50% dari lebar container */
+        padding: 20px;
+    }
+    .container-cardprograms .wrapper-cardprograms{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        padding-right: 50px;
+    }
+    .container-cardprograms .wrapper-cardprograms .img-box{
+        width: 35%;
+        height: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }   
+    .container-cardprograms .wrapper-cardprograms .title-cardprograms{
+        width: 75%;
+        height: 80%;
+    }
+    .container-cardprograms .wrapper-cardprograms .title-cardprograms h1{
+        font-size: 24px;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    .container-cardprograms .wrapper-cardprograms .title-cardprograms span{
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+}
+@media screen and (max-width: 640px) {
+    .container-cardprograms{
+        width: 50%;
+        height: 150px;
+        display: flex;
+        flex-basis: 100%; /* Mengatur lebar kartu menjadi 50% dari lebar container */
+        padding: 0px;
+    }
+    .container-cardprograms .wrapper-cardprograms{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        padding-right: 50px;
+    }
+    .container-cardprograms .wrapper-cardprograms .img-box{
+        width: 45%;
+        height: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }   
+    .container-cardprograms .wrapper-cardprograms .title-cardprograms{
+        width: 45%;
+        height: 80%;
+    }
+    .container-cardprograms .wrapper-cardprograms .title-cardprograms h1{
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.25rem;
+        text-transform: uppercase;
+    }
+    .container-cardprograms .wrapper-cardprograms .title-cardprograms span{
+        font-size: 10px;
+        font-weight: 300;
+        line-height: 0.25rem;
+        text-align: justify;
+    }
+
+}

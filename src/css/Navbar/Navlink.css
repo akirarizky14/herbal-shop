@@ -1,0 +1,27 @@
+
+.navlink {
+    text-transform: uppercase;
+    color: white;
+    padding: 0.5rem;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+  }
+  
+  .navlink:hover {
+    color: #dfdfdf; 
+  }
+  
+  .navlink:focus {
+    border-bottom: 2px solid #FACC15; 
+    outline: none;
+  }
+  
+  
+@media (max-width: 1280px) {
+    .navlink {
+      font-size: 0.75rem; 
+    }
+}
+
+  

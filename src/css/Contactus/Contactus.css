@@ -1,0 +1,256 @@
+.container-contactus{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    background-color: #90973b;
+    min-width: 400px;
+}
+.wrapper-contactus{
+    width: 80%;
+    height: 100%;
+}
+.top-contactus{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+}
+.top-contactus .req{
+    color: black;
+    text-transform: uppercase;
+    font-size: 36px;
+}
+.top-contactus .cb{
+    color: white;
+    text-transform: uppercase;
+    font-size: 36px;
+}
+.middle-contactus{
+    width: 100%;
+    height: 640px;
+    display: flex;
+    flex-direction: row;
+}
+.middle-contactus .middle-left-contactus{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.middle-contactus .middle-left-contactus input {
+    outline: none;
+    width: 80%;
+    height: 50px;
+    border-radius: 100px;
+    border: none;
+    font-size: 18px;
+    padding-left: 20px;
+}
+.middle-contactus .middle-left-contactus .message-contactus {
+    outline: none;
+    width: 80%;
+    height: 150px;
+    border-radius: 30px;
+    border: none;
+    font-size: 18px;
+    padding-left: 20px;
+}
+.middle-contactus .middle-left-contactus button {
+    outline: none;
+    width: 30%;
+    height: 50px;
+    border-radius: 100px;
+    border: none;
+    font-size: 18px;
+    color: white;
+    font-weight: 600;
+    background-color: red;
+}
+.middle-contactus .middle-right-contactus{
+    width: 100%;
+    height: 100%;
+}
+.middle-contactus .middle-right-contactus .box-maps{
+    width:100%;
+    height: 60%;
+}
+
+@media screen and (max-width: 800px) {
+.container-contactus{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    background-color: #90973b;
+    min-width: 400px;
+    padding-bottom: 50px;
+}
+.wrapper-contactus{
+    width: 80%;
+    height: 100%;
+}
+.top-contactus{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.top-contactus .req{
+    color: black;
+    text-transform: uppercase;
+    font-size: 28px;
+}
+.top-contactus .cb{
+    color: white;
+    text-transform: uppercase;
+    font-size: 28px;
+}
+.middle-contactus{
+    width: 100%;
+    height: 640px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.middle-contactus .middle-left-contactus{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.middle-contactus .middle-left-contactus input {
+    outline: none;
+    width: 80%;
+    height: 50px;
+    border-radius: 100px;
+    border: none;
+    font-size: 18px;
+    padding-left: 20px;
+}
+.middle-contactus .middle-left-contactus .message-contactus {
+    outline: none;
+    width: 80%;
+    height: 150px;
+    border-radius: 30px;
+    border: none;
+    font-size: 18px;
+    padding-left: 20px;
+}
+.middle-contactus .middle-left-contactus button {
+    outline: none;
+    width: 30%;
+    height: 50px;
+    border-radius: 100px;
+    border: none;
+    font-size: 18px;
+    color: white;
+    font-weight: 600;
+    background-color: red;
+}
+.middle-contactus .middle-right-contactus{
+    width: 100%;
+    height: 100%;
+}
+.middle-contactus .middle-right-contactus .box-maps{
+    width:100%;
+    height: 100%;
+}
+}
+@media screen and (max-width: 580px) {
+.container-contactus{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    background-color: #90973b;
+    min-width: 400px;
+    padding-bottom: 50px;
+}
+.wrapper-contactus{
+    width: 80%;
+    height: 100%;
+}
+.top-contactus{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.top-contactus .req{
+    color: black;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+.top-contactus .cb{
+    color: white;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+.middle-contactus{
+    width: 100%;
+    height: 640px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.middle-contactus .middle-left-contactus{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.middle-contactus .middle-left-contactus input {
+    outline: none;
+    width: 80%;
+    height: 50px;
+    border-radius: 100px;
+    border: none;
+    font-size: 14px;
+    padding-left: 20px;
+}
+.middle-contactus .middle-left-contactus .message-contactus {
+    outline: none;
+    width: 80%;
+    height: 150px;
+    border-radius: 30px;
+    border: none;
+    font-size: 14px;
+    padding-left: 20px;
+}
+.middle-contactus .middle-left-contactus button {
+    outline: none;
+    width: 25%;
+    height: 50px;
+    border-radius: 100px;
+    border: none;
+    font-size: 14px;
+    color: white;
+    font-weight: 600;
+    background-color: red;
+}
+.middle-contactus .middle-right-contactus{
+    width: 100%;
+    height: 100%;
+}
+.middle-contactus .middle-right-contactus .box-maps{
+    width:100%;
+    height: 100%;
+}
+}
