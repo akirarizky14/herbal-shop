@@ -1,6 +1,10 @@
 import { useState, useEffect } from 'react';
 import '../../../css/Home/Hero.css';
 import slider from '../../../assets/Home/Home/slider-bg.jpg';
+import slider2 from '../../../assets/Home/Home/slider2.png';
+import slider3 from '../../../assets/Home/Home/slider3.png';
+import slider4 from '../../../assets/Home/Home/slider4.png';
+
 import { Link } from 'react-router-dom';
 import data from './herodata.json';
 
@@ -10,21 +14,17 @@ function Hero() {
   useEffect(() => {
     const interval = setTimeout(() => {
       setCurrentSlide((prevSlide) => (prevSlide + 1) % data.length);
-    }, 2000);
+    }, 3000); // Mengubah interval menjadi 2 detik (2000 ms)
 
     return () => {
       clearTimeout(interval);
     };
   }, [currentSlide]);
 
-  const handleSlideClick = (index) => {
-    setCurrentSlide(index);
-  };
-
   return (
     <div className='container-hero'>
       <div className='wrapper-hero'>
-        <img className='slider-img' src={slider} alt='slider' />
+        <img className='slider-img' src={getSliderImage(currentSlide)} alt='slider' />
         <div className='slider-written'>
           {data.map((item, index) => (
             <div
@@ -50,7 +50,7 @@ function Hero() {
           </div>
           <div className='button-anim-hero'>
             {data.map((item, index) => (
-              <Link className='.wrapper-button-anim' key={index} onClick={() => handleSlideClick(index)}>
+              <Link className='.wrapper-button-anim' key={index} onClick={() => setCurrentSlide(index)}>
                 <button className='button-details-hero'></button>
               </Link>
             ))}
@@ -59,6 +59,21 @@ function Hero() {
       </div>
     </div>
   );
+}
+
+function getSliderImage(index) {
+  switch (index) {
+    case 0:
+      return slider;
+    case 1:
+      return slider2;
+    case 2:
+      return slider3;
+    case 3:
+      return slider4;
+    default:
+      return slider;
+  }
 }
 
 export default Hero;
