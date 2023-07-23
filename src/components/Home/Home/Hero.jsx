@@ -1,9 +1,9 @@
 import { useState, useEffect } from 'react';
 import '../../../css/Home/Hero.css';
 import slider from '../../../assets/Home/Home/slider-bg.jpg';
-import slider2 from '../../../assets/Home/Home/slider2.png';
-import slider3 from '../../../assets/Home/Home/slider3.png';
-import slider4 from '../../../assets/Home/Home/slider4.png';
+import slider2 from '../../../assets/Home/Home/slide2.png';
+import slider3 from '../../../assets/Home/Home/slide3.png';
+import slider4 from '../../../assets/Home/Home/slide4.png';
 
 import { Link } from 'react-router-dom';
 import data from './herodata.json';
