@@ -13,9 +13,9 @@ import moringa from '../../../assets/Home/Home/moringa.jpg';
 import punarnava from '../../../assets/Home/Home/Punarnava.jpg';
 import shatavari from '../../../assets/Home/Home/SHATAVARI.jpg';
 import triphala from '../../../assets/Home/Home/triphala.jpg';
-import turmeric from '../../../assets/Home/Home/turmeric.jpg';
-import tulsi from '../../../assets/Home/Home/tulsi.jpg';
-import livosil from '../../../assets/Home/Home/livosil.png';
+import turmeric from '../../../assets/Home/Home/Turmeric.jpg';
+import tulsi from '../../../assets/Home/Home/TULSI.jpg';
+import livosil from '../../../assets/Home/Home/LIVOSIL.png';
 import shilajeet from '../../../assets/Home/Home/shilajeet.jpg';
 import Cardproducts from './Cardproducts';
 
