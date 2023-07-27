@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState ,useEffect} from 'react';
 import logo from '../../assets/Home/Home/logo.jpg';
 import Navlink from './Navlink';
 import { Link } from 'react-router-dom';
@@ -12,7 +12,15 @@ function Navbar() {
   const handleMenuToggle = () => {
     setIsMenuOpen(!isMenuOpen);
   };
-
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsMenuOpen(false); // Close the menu when the user scrolls
+    };
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
   return (
     <div className='container'>
       <div className="wrapper">

@@ -10,6 +10,13 @@ import gokshuru from '../../../assets/Home/Home/gokshuru.jpg';
 import karela from '../../../assets/Home/Home/karela.jpg';
 import lakhsuna from '../../../assets/Home/Home/lakhsuna.jpg';
 import moringa from '../../../assets/Home/Home/moringa.jpg';
+import punarnava from '../../../assets/Home/Home/Punarnava.jpg';
+import shatavari from '../../../assets/Home/Home/SHATAVARI.jpg';
+import triphala from '../../../assets/Home/Home/triphala.jpg';
+import turmeric from '../../../assets/Home/Home/turmeric.jpg';
+import tulsi from '../../../assets/Home/Home/tulsi.jpg';
+import livosil from '../../../assets/Home/Home/livosil.png';
+import shilajeet from '../../../assets/Home/Home/shilajeet.jpg';
 import Cardproducts from './Cardproducts';
 
 function Products() {
@@ -39,6 +46,22 @@ function Products() {
         return lakhsuna;
       case 'МОРИНГА':
         return moringa;
+      case 'ПУНАРНАВА':
+        return punarnava;
+      case 'ШАТАВАРИ':
+        return shatavari;
+      case 'ТРИФАЛА':
+        return triphala;
+      case 'ПОРОШОК ТРИФАЛЫ':
+        return triphala;
+      case 'КУРКУМА':
+        return turmeric;
+      case 'ТУЛСИ':
+        return tulsi;
+      case 'ЛИВОСИЛ':
+        return livosil;
+      case 'ЭКО КАБЗ':
+        return shilajeet;
       default:
         return amla;
     }
