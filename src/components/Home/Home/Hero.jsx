@@ -35,19 +35,19 @@ function Hero() {
                 <div className='slider-title'>
                   <h3 className='title-slider'>{item.title}</h3>
                   <h1 className='subtitle-slider'>{item.subtitle}</h1>
-                  <span className='desc-slider'>{item.description}</span>
+                  {/* <span className='desc-slider'>{item.description}</span> */}
                 </div>
               )}
             </div>
           ))}
-          <div className='button-hero'>
+          {/* <div className='button-hero'>
             <div className="wrapper-rm">
                 <Link className='read-more'>Read More</Link>
             </div>
             <div className="wrapper-cu">
                 <Link className='contact-us'>Contact Us</Link>
             </div>
-          </div>
+          </div> */}
           <div className='button-anim-hero'>
             {data.map((item, index) => (
               <Link className='.wrapper-button-anim' key={index} onClick={() => setCurrentSlide(index)}>

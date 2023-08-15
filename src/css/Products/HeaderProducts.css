@@ -1,0 +1,26 @@
+.container-headerproducts{
+    width: 100%;
+    height: 10%;
+    padding: 5% 0% 5% 0%;
+}
+
+.wrapper-headerproducts{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+}
+
+@media screen and (max-width: 980px) {
+    .wrapper-headerproducts{
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        font-size: 24px;
+    }
+}
+@media screen and (max-width: 580px) {
+    .wrapper-headerproducts{
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+    }
+}

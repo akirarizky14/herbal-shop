@@ -47,10 +47,11 @@
     color: #ffffff;
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
-    line-height: 1.25rem;
+    line-height: 4.75rem;
     letter-spacing: 0.025rem;
     font-weight: 800;
-    font-size: 66px;
+    font-size: 86px;
+    width: 50%;
 }
 .slider-title span{
     color: #ffffff;
@@ -185,7 +186,7 @@
         color: #ffffff;
         font-family: 'Roboto', sans-serif;
         text-transform: uppercase;
-        line-height: 1.25rem;
+        line-height: 2.25rem;
         letter-spacing: 0.025rem;
         font-weight: 800;
         font-size: 36px;
