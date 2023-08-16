@@ -26,11 +26,11 @@ import karela_01 from '../../../assets/Products/karela_01.jpg';
 import lakhsuna_01 from '../../../assets/Products/lohsuna_01.jpg';
 import moringa_01 from '../../../assets/Products/moringa_01.jpg';
 import neem_01 from '../../../assets/Products/neem_01.jpg';
-import punarnava_01 from '../../../assets/Products/Punarnava_01.jpg';
-import shatavari_01 from '../../../assets/Products/SHATAVARI_01.jpg';
-import triphala_01 from '../../../assets/Products/TRIPHALA_01.jpg';
-import turmeric_01 from '../../../assets/Products/Turmeric_01.jpg';
-import tulsi_01 from '../../../assets/Products/TULSI_01.jpg';
+import punarnava_01 from '../../../assets/Products/punarnava_01.jpg';
+import shatavari_01 from '../../../assets/Products/shatavari_01.jpg';
+import triphala_01 from '../../../assets/Products/triphala_01.jpg';
+import turmeric_01 from '../../../assets/Products/turmeric_01.jpg';
+import tulsi_01 from '../../../assets/Products/tulsi_01.jpg';
 const Products = [
     {
       title: "АМЛА",
