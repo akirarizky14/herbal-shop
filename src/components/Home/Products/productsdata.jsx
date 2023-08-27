@@ -11,10 +11,7 @@ import punarnava from '../../../assets/Home/Home/Punarnava.jpg';
 import shatavari from '../../../assets/Home/Home/SHATAVARI.jpg';
 import triphala from '../../../assets/Home/Home/TRIPHALA.jpg';
 import turmeric from '../../../assets/Home/Home/Turmeric.jpg';
-import tulsi from '../../../assets/Home/Home/TULSI.jpg';
-import livosil from '../../../assets/Home/Home/livosil.png';
-import shilajeet from '../../../assets/Home/Home/Shilajeet.jpg';
-    
+import tulsi from '../../../assets/Home/Home/TULSI.jpg';    
 
 import amla_01 from '../../../assets/Products/amla_01.jpg';
 import arjuna_01 from '../../../assets/Products/arjuna_01.jpg';

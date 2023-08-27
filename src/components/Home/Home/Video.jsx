@@ -1,6 +1,6 @@
 import React from 'react';
 import video from './mainpage.mp4';
-import '../../../css/Home/Video.css';
+import '../../../css/Home/VIdeo.css';
 function Video() {
   return (
     <div className='container-video'>
